@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+	<header>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+		<!-- bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!-- specific themes -->
+		<link href="cover.css" rel="stylesheet">
+
+		<title> Jacob Bradley </title>
+	</header>
+
+
+	<body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Jacob Bradley</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="research.html">Research</a>
+            <a class="nav-link" href="teaching.html">Teaching</a>
+						<a class="nav-link" href="career.html">Career</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Research</h1>
+				<p class="lead">I am an interdisciplinary researcher, working in statistical learning theory and also cancer genomics. I believe to properly exploit the new data and methodologies available in genomic medicine and machine learning, we need researchers who can speak the language of both. In the past I've worked on  ensemble methods for weakly supervised learning, and on mathematical modelling of biological signalling pathways and efficient information transfer in promiscuous cell-cell interactions.</p>
+				<h4>
+					Current Research Interests:
+				</h4>
+				</p>
+				<p>
+					<b>High-Dimensional Classification</b> <br>
+					I'm interested in analysing the performance of classifiers in the high-dimensional regime (where the dimensionality of our data may scale with its availability). A powerful tool in this case is the use of ensemble random projections of our data, alongside the use of arbitrary low-dimensional classifiers. My work currently consists on employing these methods for robust feature selection and supervised sufficient dimension reduction.
+
+				<p>
+					<b>Genomic Biomarkers and Panel Design</b> <br>
+				Whole-genome and whole-exome sequencing have revolutionised cancer research, but their expense makes them still out of reach for much of clinical practice. I work on efficiently estimtion exome-wide biomarkers of response to cancer therapy (such as tumour mutation burden) with small (and so economically viable) targeted gene panels. I'm hoping to publish something in this space very soon!	
+				</p>
+				<h4>
+					Publications
+				</h4>
+				<p>
+					<b>2020</b><br>
+					<a href = https://www.intechopen.com/books/artificial-intelligence-in-oncology-drug-discovery-and-development/dimensionality-and-structure-in-cancer-genomics-a-statistical-learning-perspective>Dimensionality and Structure in Cancer Genomics: A Statistical Learning Perspective</a><br>
+					<i>Book Chapter for the book <a href = https://www.intechopen.com/books/artificial-intelligence-in-oncology-drug-discovery-and-development>Artifical Intelligence in Oncology Drug Discovery and Development</a>, published by IntechOpen.</i>
+				</P>
+				<h4>Dissertations/Unpublished Academic Work</h4>
+				<p>
+					I wrote my <a href="CCG.pdf">master's thesis</a> on genomic biomarkers for response to immunotherapy.
+				</p>
+      </main>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
